@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a:link{
+    text-decoration: none;
+}
+.sidemenu{
+    float: left;
+    width: 245px;
+    height: 800px;
+    background-color: #fff;
+    border-right: 1px solid rgb(225, 225, 225);
+    
+}
+.ig-logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px ;
+    width: 113px;
+    height: 42px;
+}
+.sidebtn{
+    text-decoration: none;
+    background-color: #fff;
+    display: flex;
+    height: 40px;
+    width: 210px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+.sidebtn:hover{
+    background-color: rgb(204, 204, 204);
+    font-weight: bold;
+}
+.sidebtn:active{
+    background-color: rgb(204, 204, 204);
+    font-weight: bold;
+}
+.button__text,
+.button__icon{
+    display: inline-flex;
+    padding: 0 10px;
+    align-items: center;
+    height: 100%;
+}
+.button__icon{
+    font-size: 1.5em;
+}
+.miniprofilepic{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+.profilepic{
+    background-color: #fff;
+    width: 150px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.profilepic img{
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+.profileheader{
+    width: 380px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-left: 130px;
+    float: left;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+.editprofile{
+    background-color: #f2f2f2;
+    font-weight: bold;
+    margin-left: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.editprofile:active{
+    background-color: rgb(204, 204, 204);
+    font-weight: bold;
+}
+.settings{
+    margin-left: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    display: inline;
+    align-items: center;
+    cursor: pointer;
+}
+.stats{
+    font-weight: bold;
+    margin-left: 715px;
+    margin-top: 90px;
+    position: absolute;
+}
+.posts, .followers, .following{
+    margin-left: 10px;
+}

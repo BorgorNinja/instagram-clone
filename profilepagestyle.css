@@ -144,6 +144,10 @@ a:link{
     margin: 10px;
     list-style: none;
 }
+.tablist a{
+    color: black;
+    text-decoration: none;
+}
 .tab-icon, .tab-text{
     display: inline-flex;
     align-items: center;

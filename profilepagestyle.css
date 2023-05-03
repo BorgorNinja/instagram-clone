@@ -12,6 +12,7 @@ a:link{
     height: 800px;
     background-color: #fff;
     border-right: 1px solid rgb(225, 225, 225);
+    position: fixed;
     
 }
 .ig-logo{
@@ -42,7 +43,7 @@ a:link{
     font-weight: bold;
 }
 .sidebtn:active{
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(108, 108, 108);
     font-weight: bold;
 }
 .button__text,
@@ -60,12 +61,17 @@ a:link{
     height: 30px;
     border-radius: 20px;
 }
-.profilepic{
+.profileheading{
     background-color: #fff;
+    height: 250px;
+    width: 1515px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+.profilepic{
     width: 150px;
     float: left;
     margin-top: 40px;
-    margin-left: 200px;
+    margin-left: 480px;
 }
 .profilepic img{
     border-radius: 100px;
@@ -74,9 +80,8 @@ a:link{
 }
 .profileheader{
     width: 380px;
-    background-color: #fff;
     margin-top: 40px;
-    margin-left: 130px;
+    margin-left: 95px;
     float: left;
     font-size: 20px;
     display: flex;
@@ -88,13 +93,17 @@ a:link{
     margin-left: 40px;
     height: 30px;
     border: none;
+    outline: none;
     border-radius: 5px;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-.editprofile:active{
+.editprofile:hover{
     background-color: rgb(204, 204, 204);
+}
+.editprofile:active{
+    background-color: rgb(108, 108, 108);
     font-weight: bold;
 }
 .settings{
@@ -115,4 +124,61 @@ a:link{
 }
 .posts, .followers, .following{
     margin-left: 10px;
+}
+.Tab-list{
+    background-color: #fff;
+    display: inline-flex;
+    float: none;
+    margin-left: 640px;
+    width: 500px;
+}
+.tablist{
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.tablist li{
+    margin: 10px;
+    list-style: none;
+}
+.tablist a{
+    color: black;
+    text-decoration: none;
+}
+.tab-icon, .tab-text{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2px;
+    font-size: 12px;
+}
+
+.pictures{
+    background-color: #fff;
+    position: relative;
+    height: auto;
+    width: 1180px;
+    margin-left: 300px;
+    display: inline-flex;
+}
+table{
+    margin: auto;
+    border: hidden;
+    border-width: 1px;
+}
+table td{
+    width: 300px;
+}
+table t{
+    height: 300px;
+}
+table img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+table img:hover{
+    filter: brightness(80%);
 }

@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KJ Lining (@heyitsmekj9) | Instagram</title>
+    <title>Mike Bael Hayag (@mikehayag) | Instagram</title>
     <link rel="stylesheet" href="profilepagestyle.css">
 </head>
 <body>
    <!--side menu--> 
     <div class="sidemenu">
-        <a href="#"><img src="images/instagram-text-logo.png" class="ig-logo"></a>
+        <a href="homepage.html"><img src="images/instagram-text-logo.png" class="ig-logo"></a>
 
-        <button type="button" class="sidebtn" onclick="location.href=https//">
-            <span class="button__icon"><ion-icon name="home-outline"></ion-icon></span>
-            <span class="button__text">Home</span>
-        </button>
+        <a href="homepage.html">
+            <button type="button" class="sidebtn">
+                <span class="button__icon"><ion-icon name="home-outline"></ion-icon></span>
+                <span class="button__text">Home</span>
+            </button>
+        </a>
         <button type="button" class="sidebtn">
             <span class="button__icon"><ion-icon name="search-outline"></ion-icon></span>
             <span class="button__text">Search</span>
@@ -42,7 +44,7 @@
         </button>
         <a href="profilepage.html">
             <button type="button" class="sidebtn">
-                <span class="button__icon"><img src="images/1.jpg" class="miniprofilepic"></span>
+                <span class="button__icon"><img src="homepage images/1.jpg" class="miniprofilepic"></span>
                 <span class="button__text">Profile</span>
             </button>
         </a>
@@ -54,22 +56,77 @@
     <!--End of Side menu-->
 
     <!--Profile heading-->
-    <div class="profilepic">
-        <img src="images/1.jpg">
+    <div class="profileheading">
+        <div class="profilepic">
+            <img src="homepage images/1.jpg">
+        </div>
+        <div class="profileheader">
+            <span class="username">mikehayag</span>
+           <button type="button" class="editprofile">Edit Profile</button>
+            <button type="button" class="settings"><ion-icon name="settings-outline"></ion-icon></button>
+        </div>
+        <div class="stats">
+            <span class="posts">5 posts</span>
+            <span class="followers">20 Followers</span>
+            <span class="following">211 Following</span>
+            <p class="nickname" style="margin-left: 10px; margin-top:10px; font-size: 14px;">Mike Bael Hayag</p>
+        </div>
     </div>
-    <div class="profileheader">
-        <span class="username">kj.lining</span>
-        <a href="#"><button type="button" class="editprofile">Edit Profile</button></a>
-        <a href="#"><button type="button" class="settings"><ion-icon name="settings-outline"></ion-icon></button></button></a>
-    </div>
-    <div class="stats">
-        <span class="posts">10 posts</span>
-        <span class="followers">20 Followers</span>
-        <span class="following">211 Following</span>
-        <p class="nickname" style="margin-left: 10px; margin-top:10px; font-size: 14px;">Khristine Joyce Lining</p>
-    </div>
-    
 
+
+    <!--Timeline Pictures-->
+    <!--Patulong ihide yung text decoration dito :( )-->
+    <div class="Tab-list">
+        <ul class="tablist" style="text-decoration: none;">
+            <li>
+                <a href="#">
+                    <span class="tab-icon"><ion-icon name="grid-outline"></ion-icon></span>
+                    <span class="tab-text">POSTS</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="tab-icon"><ion-icon name="film-outline"></ion-icon></span>
+                    <span class="tab-text">REELS</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="tab-icon"><ion-icon name="bookmark-outline"></ion-icon></span>
+                    <span class="tab-text">SAVED</span> 
+                </a>
+            </li>
+            <li>
+                <a href="#"> 
+                    <span class="tab-icon"><ion-icon name="people-circle-outline"></ion-icon></span>
+                    <span class="tab-text">TAGGED</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="pictures">
+        <table>
+            <tr>
+                <td>
+                    <img src="images/727.jpg">
+                </td>
+                <td>
+                    <img src="images/737.jpg">
+                </td>
+                <td>
+                    <img src="images/787.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/a320.jpg">
+                </td>
+                <td>
+                   <img src="images/beluga.jpg">
+                </td>
+            </tr>
+        </table>
+    </div>
 
 
 
